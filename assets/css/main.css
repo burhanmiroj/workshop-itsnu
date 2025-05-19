@@ -1,0 +1,27 @@
+@import './root.css';
+@import './colors.css';
+
+/* COMPONENTS */
+@import './components/navigation.css';
+@import './components/sidebar.css';
+
+
+main {
+    display: flex;
+    justify-content: end;
+}
+
+/* SECTION MAIN CONTENT */
+.main-content {
+    width: 100%;
+    padding: 5rem 1rem 1rem 1rem;
+    color: var(--main-black);
+}
+
+/* TABLET UP */
+@media screen and (min-width: 992px) {
+    .main-content {
+        width: calc(100% - 300px);
+        padding: 7.5rem 1rem 1rem 1rem;
+    }
+}

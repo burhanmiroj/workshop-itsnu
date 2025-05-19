@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid var(--main-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    background-color: var(--main-white);
+}
+
+.navbar .logo {
+    width: 100px;
+}
+
+.navbar .logo img {
+    width: 100%;
+}
+
+.navbar .right-sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-sosmed a {
+    color: var(--main-black);
+    margin-left: 1rem;
+}
+
+/* TABLET UP */
+@media screen and (min-width: 992px) {
+    .navbar {
+        height: 80px;
+    }
+}

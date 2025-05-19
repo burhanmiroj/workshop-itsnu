@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --text-heading-main: 1.5em;
+    --text-heading-secondary: 1.3em;
+    --text-heading-third: 1em;
+    --text-sm: .9em;
+
+    --max-w-content: 1000px;
+}
